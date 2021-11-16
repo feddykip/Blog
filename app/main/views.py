@@ -1,7 +1,7 @@
 
 from flask_login import login_required, current_user
 from flask import render_template,request,redirect,url_for, abort,flash
-from ..models import Blogs,Role,User,Comments,Subscriber
+from ..models import Blogs,User,Comments,Subscriber
 from .. import db,photos
 from . import main
 from ..email import mail_message
